@@ -18,10 +18,10 @@ new Vue({
             this.count = 1;
         },
         tasu() {
-            this.number++;
+            this.count = this.count + this.number;
         },
         hiku() {
-            this.number--;
+            this.count = this.count - this.number;
         }
 
     }
